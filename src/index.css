@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+body{
+  background-color: black;
+  background-image: 
+    radial-gradient(2px 2px at 10% 20%, white, transparent),
+    radial-gradient(2px 2px at 30% 40%, white, transparent),
+    radial-gradient(2px 2px at 50% 60%, white, transparent),
+    radial-gradient(2px 2px at 70% 80%, white, transparent),
+    radial-gradient(2px 2px at 90% 90%, white, transparent);
+  background-size: 200px 200px;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(20deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-20deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.waving-hand:hover {
+  animation: wave 1s ease-in-out 2;
+  cursor: pointer;
+}
+
+.bg-starry{
+  background-color: black;
+  background-image: 
+    radial-gradient(2px 2px at 10% 20%, white, transparent),
+    radial-gradient(2px 2px at 30% 40%, white, transparent),
+    radial-gradient(2px 2px at 50% 60%, white, transparent),
+    radial-gradient(2px 2px at 70% 80%, white, transparent),
+    radial-gradient(2px 2px at 90% 90%, white, transparent);
+  background-size: 200px 200px;
+}
+
+
