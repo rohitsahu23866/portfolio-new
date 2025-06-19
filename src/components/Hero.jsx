@@ -7,7 +7,7 @@ const Hero = () => {
         {/* Profile Image */}
         <img
           className="w-36 h-36 md:w-44 md:h-44 rounded-full shadow-[0_0_5px_2px_rgb(0,191,255)]"
-          src="/src/assets/pic.png"
+          src="/assets/pic.png"
           alt="Profile"
         />
 
